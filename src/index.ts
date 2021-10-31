@@ -1,4 +1,4 @@
-import Module from '../miniscript.js'
+import Module from './miniscript.js'
 
 export class Policy {
   instance: any
