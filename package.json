@@ -2,14 +2,17 @@
   "name": "miniscript-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.ts",
+  "types": "src/types.d.ts",
   "scripts": {
+    "hej": "ts-node src/index.ts",
     "build:wasm": "./scripts/buildWasm.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ts-node": "^10.4.0",
     "typescript": "^4.4.4"
   }
 }
