@@ -78,14 +78,3 @@ export class Policy {
   }
 
 }
-
-(async () => {
-
-  const policy = new Policy()
-
-  await policy.init()
-
-  console.log(policy.compile('and(pk(A),or(pk(B),or(9@pk(C),older(1000))))'))
-  console.log(policy.analyze('and_v(v:pk(K),pk(A))'))
-
-})()
