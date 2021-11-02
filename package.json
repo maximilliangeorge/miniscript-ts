@@ -7,7 +7,7 @@
   "scripts": {
     "build:lib": "./scripts/buildLib.sh",
     "build:wasm": "./scripts/buildWasm.sh",
-    "test:watch": "jest --watch",
+    "test:watch": "jest --watch --no-cache",
     "test": "jest"
   },
   "author": "",
