@@ -1,6 +1,6 @@
 # miniscript-ts
 
-Typescript bindings for Bitcoin Miniscript
+Typescript bindings for Peter Wuilles Bitcoin Miniscript compiler and analyzer.
 
 ## Usage
 
